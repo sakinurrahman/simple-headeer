@@ -1,0 +1,85 @@
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    background: #6EC1E4;
+    font-family: 'Oswald', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+header {
+    background-color: white;
+}
+
+.logo img {
+	max-width: 170px;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 10px 0px;
+
+}
+
+.custom-width {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+ul li {
+    margin-right: 20px;
+  }
+
+  ul li a {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 500;
+	text-decoration: navajowhite;
+}
+
+
+.searchbar {
+    position: relative;
+    cursor: pointer;
+  }
+
+  .searchbar:hover .search-box {
+    visibility: visible;
+  }
+  .search-box {
+	position: absolute;
+	border: 0;
+	top: -9px;
+	right: -10px;
+	background: red;
+	width: 385px;
+	visibility: hidden;
+	transition: .3s linear;
+	-webkit-transition: .3s linear;
+	-moz-transition: .3s linear;
+	-ms-transition: .3s linear;
+	-o-transition: .3s linear;
+}
+
+input {
+	border: 1px solid black;
+	padding: 12px 0px 12px 10px;
+	border-radius: 2px;
+	width: 385px;
+}
+
+.fa-search {
+	z-index: 333333;
+	position: relative;
+}
